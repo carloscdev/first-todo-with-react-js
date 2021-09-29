@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--white);
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 3px solid var(--white);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color: var(--pink);
+}
+
+.item-completed {
+  text-decoration: line-through;
+  font-weight: bold;
+}

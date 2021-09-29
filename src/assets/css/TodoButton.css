@@ -1,0 +1,24 @@
+.buttonAdd {
+  background-color: var(--pink);
+  border-color: var(--pink);
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+.rotate {
+  transform: rotate(45deg);
+}
